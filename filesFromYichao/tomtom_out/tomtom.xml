@@ -24,7 +24,7 @@
     <strands>both</strands>
     <background from="first_target" A="0.25" C="0.25" G="0.25" T="0.25"/>
     <host>maxwell-desktop</host>
-    <when>Thu Apr 19 14:00:39 2018</when>
+    <when>Thu Apr 19 14:29:39 2018</when>
   </model>
   <query_dbs>
     <db source="selectedMotifs.pwm" name="selectedMotifs" loaded="12" excluded="0" last_mod_date="Thu Apr 19 13:52:37 2018"/>
@@ -11737,5 +11737,5 @@
       <target idx="568" rc="n" off="1" pv="6.02e-03" ev="2.12e+01" qv="4.84e-01"/>
     </query>
   </matches>
-  <runtime cycles="35548000" seconds="35.548"/>
+  <runtime cycles="35528000" seconds="35.528"/>
 </tomtom>
