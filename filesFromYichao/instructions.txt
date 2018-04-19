@@ -1,0 +1,13 @@
+For TOMTOM:
+	All discovered motifs MD_hrgp_all
+	All known motifs in Arabidopsis: ATH_known
+ 
+For RSAT feature map: http://embnet.ccg.unam.mx/rsat/feature-map_form.cgi
+	Fimo output: hrgp_fore.fasta.fimo.out
+	Script convert from fimo to feature map: feature map.py
+ 
+For centrimo:
+	fasta sequence: foreground.fasta
+	all motifs
+	or your selected motifs, run subPWM.py              outputpwmfile_name             all_discovery_motif_pwm                  your_selected_motif_list_sep_line
+
