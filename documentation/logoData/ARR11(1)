@@ -1,0 +1,75 @@
+
+<html>
+
+    <head>
+        <title>AthaMap</title>
+        <meta http-equiv="expires" content="0">
+            
+<script type="text/javascript">
+<!--
+    //function to hide a div:
+    function hideDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = 'none';
+    }
+    //function to show a div:
+    function showDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = '';
+    }
+    //function for switching between two div-tags
+    //attributes: showDivName: name of the div to be shown
+    //            hideDivName: name of the div to hide
+    function switchDivs(showDivName, hideDivName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[showDivName].style.display = '';
+        divObjects[hideDivName].style.display = 'none';
+    }
+//-->
+</script>
+
+<link rel=stylesheet type="text/css" href="css/main.css">    </head>
+
+    <body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td>
+                            <table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td class="listheader" width="1" valign="top">Name:&nbsp;</td>
+<td>ARR11(1)</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Species:&nbsp;</td>
+<td>Arabidopsis thaliana&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Family:&nbsp;</td>
+<td>GARP/ARR-B&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Logo:&nbsp;</td>
+<td><img src="Logos/picARR11(1).png" width="350"/>&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Matrix:&nbsp;</td>
+<td><pre>A | 4779 6250 9270   47 9894   74 7317   34  135 1877
+C | 1149  510  113   22   21   32  222 8329   53 2175
+G | 2161  548  294 9821   42   19   36   18 9684 5042
+T | 1911 2692  323  110   44 9874 2425 1618  128  906</pre></td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Max.&nbsp;score:&nbsp;</td>
+<td>11.16&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Threshold:&nbsp;</td>
+<td>6.11&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Reference(s):&nbsp;</td>
+<td>Franco-Zorrilla JM, López-Vidriero I, Carrasco JL, Godoy M, Vera P, Solano R. 2014. DNA-binding specificities of plant transcription factors and their potential to define target genes. Proc Natl Acad Sci U S A 111: 2367-72. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=24477691&dopt=Abstract" target="_blank" alt="Link to PubMed record" title="Link to PubMed record">PubMed</a>&nbsp;&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">AGI:&nbsp;</td>
+<td><a href="http://www.arabidopsis.org/servlets/TairObject?type=locus&name=At1g67710" target="_blank" alt="Link to TAIR record" title="Link to TAIR record">At1g67710&nbsp;TAIR</a>&nbsp;, <a href="http://www.araport.org/locus/At1g67710" target="_blank" alt="Link to AIP record" title="Link to AIP record">At1g67710&nbsp;AIP</a>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+    </table>
+</body>
+
+</html>
+   

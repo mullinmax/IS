@@ -1,0 +1,80 @@
+
+<html>
+
+    <head>
+        <title>AthaMap</title>
+        <meta http-equiv="expires" content="0">
+            
+<script type="text/javascript">
+<!--
+    //function to hide a div:
+    function hideDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = 'none';
+    }
+    //function to show a div:
+    function showDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = '';
+    }
+    //function for switching between two div-tags
+    //attributes: showDivName: name of the div to be shown
+    //            hideDivName: name of the div to hide
+    function switchDivs(showDivName, hideDivName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[showDivName].style.display = '';
+        divObjects[hideDivName].style.display = 'none';
+    }
+//-->
+</script>
+
+<link rel=stylesheet type="text/css" href="css/main.css">    </head>
+
+    <body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td>
+                            <table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td class="listheader" width="1" valign="top">Name:&nbsp;</td>
+<td>ATHB1</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Synonyms:&nbsp;</td>
+<td>HAT5&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Species:&nbsp;</td>
+<td>Arabidopsis thaliana&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Family:&nbsp;</td>
+<td>HD-ZIP&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Logo:&nbsp;</td>
+<td><img src="Logos/picATHB1.png" width="350"/>&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Matrix:&nbsp;</td>
+<td><pre>A |  3 22 25  0  0 25  0  0  3
+C | 13  1  0  0  5  0  0  0  1
+G |  4  0  0  0  0  0  0  0 12
+T |  3  1  0 25 20  0 25 25  0</pre></td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Max.&nbsp;score:&nbsp;</td>
+<td>9.98&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Threshold:&nbsp;</td>
+<td>5.77&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Reference(s):&nbsp;</td>
+<td>Sessa G, Morelli G, Ruberti I. 1993
+The Athb-1 and -2 HD-Zip domains homodimerize forming complexes of different DNA binding specificities.
+EMBO J 12: 3507-17. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8253077&dopt=Abstract" target="_blank" alt="Link to PubMed record" title="Link to PubMed record">PubMed</a>&nbsp;&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">AGI:&nbsp;</td>
+<td><a href="http://www.arabidopsis.org/servlets/TairObject?type=locus&name=At3g01470" target="_blank" alt="Link to TAIR record" title="Link to TAIR record">At3g01470&nbsp;TAIR</a>&nbsp;, <a href="http://www.araport.org/locus/At3g01470" target="_blank" alt="Link to AIP record" title="Link to AIP record">At3g01470&nbsp;AIP</a>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+    </table>
+</body>
+
+</html>
+   

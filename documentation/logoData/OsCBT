@@ -1,0 +1,75 @@
+
+<html>
+
+    <head>
+        <title>AthaMap</title>
+        <meta http-equiv="expires" content="0">
+            
+<script type="text/javascript">
+<!--
+    //function to hide a div:
+    function hideDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = 'none';
+    }
+    //function to show a div:
+    function showDiv(divName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[divName].style.display = '';
+    }
+    //function for switching between two div-tags
+    //attributes: showDivName: name of the div to be shown
+    //            hideDivName: name of the div to hide
+    function switchDivs(showDivName, hideDivName){
+        var divObjects = document.getElementsByTagName("div");
+        divObjects[showDivName].style.display = '';
+        divObjects[hideDivName].style.display = 'none';
+    }
+//-->
+</script>
+
+<link rel=stylesheet type="text/css" href="css/main.css">    </head>
+
+    <body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td>
+                            <table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td class="listheader" width="1" valign="top">Name:&nbsp;</td>
+<td>OsCBT</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Species:&nbsp;</td>
+<td>Oryza sativa&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Family:&nbsp;</td>
+<td>CAMTA&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Logo:&nbsp;</td>
+<td><img src="Logos/picOsCBT.png" width="350"/>&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Matrix:&nbsp;</td>
+<td><pre>A |  14  28   0   0   0   0   0   9   7  10   7   0  11   0   1
+C |   9  26  79   0  53   0   1   4   8   9   8   4   4  76   0
+G |  10  19   0  79   0  79   3  21  24  24  32   0  35   0  76
+T |  45   6   0   0  26   0  75  45  40  36  32  75  29   3   2</pre></td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Max.&nbsp;score:&nbsp;</td>
+<td>16.34&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Threshold:&nbsp;</td>
+<td>9.98&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">Reference(s):&nbsp;</td>
+<td>Choi MS, Kim MC, Yoo JH, Moon BC, Koo SC, Park BO, Lee JH, Koo YD, Han HJ, Lee SY, Chung WS, Lim CO, Cho MJ. 2005. Isolation of a calmodulin-binding transcription factor from rice (Oryza sativa L.). J Biol Chem 280: 40820-31. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=16192280&dopt=Abstract" target="_blank" alt="Link to PubMed record" title="Link to PubMed record">PubMed</a>&nbsp;&nbsp;</td>
+</tr><tr>
+<td class="listheader" width="1" valign="top">AGI:&nbsp;</td>
+<td>-&nbsp;, -&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+    </table>
+</body>
+
+</html>
+   
